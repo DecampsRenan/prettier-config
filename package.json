@@ -22,8 +22,10 @@
     "url": "https://github.com/decampsrenan"
   },
   "license": "MIT",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0"
+  },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "prettier": "3.1.1"
   }
 }
