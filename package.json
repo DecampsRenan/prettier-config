@@ -6,6 +6,9 @@
   "files": [
     ".prettier.config.mjs"
   ],
+  "scripts": {
+    "test": "true"
+  },
   "type": "module",
   "keywords": [
     "prettier",
