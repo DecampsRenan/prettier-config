@@ -1,0 +1,26 @@
+{
+  "name": "@decampsrenan/prettier-config",
+  "version": "0.1.0",
+  "description": "Personal prettier config",
+  "main": ".prettier.config.mjs",
+  "files": [
+    ".prettier.config.mjs"
+  ],
+  "type": "module",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config",
+    "style"
+  ],
+  "author": {
+    "name": "Renan Decamps",
+    "email": "renan.decamps@gmail.com",
+    "url": "https://github.com/decampsrenan"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "prettier": "3.1.1"
+  }
+}
