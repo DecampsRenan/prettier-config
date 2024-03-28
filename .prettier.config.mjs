@@ -18,10 +18,24 @@ export default {
 
 	// @trivago/prettier-plugin-sort-imports
 	importOrder: [
+		// react related packages
 		'^react$',
 		'^react-dom',
+		'^react-.*$',
+
+		// plasmo packages grouped together
+		'^$',
+
+		// npm packages
 		"<THIRD_PARTY_MODULES>",
-		'^@/(.*)$',
+
+		// aliases path ('@/components/etc..', '~lib/etc...')
+		'^(@/|~)(.*)$',
+		
+		// loader specific imports ('raw:../', 'data-text:../')
+		'^(.+:.*)$',
+		
+		// relative imports
 		"^[./]"
 	],
 	importOrderSeparation: true,
