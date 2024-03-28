@@ -24,16 +24,16 @@ export default {
 		'^react-.*$',
 
 		// plasmo packages grouped together
-		'^$',
+		'^@plasmohq/.+$',
 
 		// npm packages
 		"<THIRD_PARTY_MODULES>",
 
 		// aliases path ('@/components/etc..', '~lib/etc...')
-		'^(@/|~)(.*)$',
+		'^(@/|~)(.+)$',
 		
 		// loader specific imports ('raw:../', 'data-text:../')
-		'^(.+:.*)$',
+		'^(.+:.+)$',
 		
 		// relative imports
 		"^[./]"
