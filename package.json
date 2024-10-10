@@ -2,7 +2,7 @@
   "name": "@decampsrenan/prettier-config",
   "version": "3.1.0",
   "description": "Personal prettier config",
-  "main": ".prettier.config.mjs",
+  "main": "index.mjs",
   "files": [
     "index.mjs",
     "astro.mjs"
