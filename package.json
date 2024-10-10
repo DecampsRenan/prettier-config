@@ -4,7 +4,8 @@
   "description": "Personal prettier config",
   "main": ".prettier.config.mjs",
   "files": [
-    ".prettier.config.mjs"
+    "index.mjs",
+    "astro.mjs"
   ],
   "scripts": {
     "test": "true"
@@ -29,6 +30,7 @@
     "prettier": "3.1.1"
   },
   "peerDependencies": {
-    "prettier": "^3.1.1"
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
