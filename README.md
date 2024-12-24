@@ -1,22 +1,22 @@
-## Personal prettier-config
+# Personal config files
 
 I use this config in all my projects. No need to copy/paste anymore 😄
 
-### Install
+## Supported tools
 
-```sh
-pnpm i -D @decampsrenan/prettier-config
-```
+- [x] Prettier
+- [ ] ESLint
+- [ ] Typescript
+
+## Install
 
 ```sh
 npm i -D @decampsrenan/prettier-config
 ```
 
-```sh
-yarn add -D @decampsrenan/prettier-config
-```
+## Usage
 
-### Usage
+### Prettier
 
 ```json
 // package.json

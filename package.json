@@ -1,14 +1,14 @@
 {
-  "name": "@decampsrenan/prettier-config",
-  "version": "3.1.1",
-  "description": "Personal prettier config",
-  "main": "index.mjs",
-  "files": [
-    "index.mjs",
-    "astro.mjs"
-  ],
+  "name": "@decampsrenan/config",
+  "version": "4.0.0",
+  "description": "Personal config files",
+  "exports": {
+    "./prettier-default": "./prettier-default.mjs",
+    "./prettier-astro": "./prettier-astro.mjs"
+  },
   "scripts": {
-    "test": "true"
+    "test": "true",
+    "dev": "chokidar \"**/*.{mjs,json}\" -c \"yalc publish --push\""
   },
   "type": "module",
   "keywords": [
@@ -27,7 +27,9 @@
     "@trivago/prettier-plugin-sort-imports": "4.3.0"
   },
   "devDependencies": {
-    "prettier": "3.1.1"
+    "chokidar-cli": "3.0.0",
+    "prettier": "3.1.1",
+    "yalc": "1.0.0-pre.53"
   },
   "peerDependencies": {
     "prettier": "^3.1.1",

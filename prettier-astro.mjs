@@ -1,4 +1,4 @@
-import defaultConfig from './'
+import defaultConfig from './prettier-default.mjs'
 
 /** @type {import("prettier").Config} */
 export default {
