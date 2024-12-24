@@ -1,12 +1,10 @@
+> [!IMPORTANT]
+> This repo is not maintained anymore. Please use https://github.com/DecampsRenan/config instead.
+> It provides defaults for eslint and typescript.
+
 # Personal config files
 
 I use this config in all my projects. No need to copy/paste anymore 😄
-
-## Supported tools
-
-- [x] Prettier
-- [ ] ESLint
-- [ ] Typescript
 
 ## Install
 
@@ -15,8 +13,6 @@ npm i -D @decampsrenan/prettier-config
 ```
 
 ## Usage
-
-### Prettier
 
 ```json
 // package.json
